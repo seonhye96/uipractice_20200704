@@ -45,10 +45,7 @@
         android:hint="사용할 닉네임 입력"
         android:singleLine="true"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="추천인 닉네임"/>
+
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -70,9 +67,15 @@
             android:text="공개 안 함"/>
     </RadioGroup>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="추천인 닉네임"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:hint="추천해준 사람의 닉네임을 검색하세요."
         android:singleLine="true"
         android:imeOptions="actionSearch"
