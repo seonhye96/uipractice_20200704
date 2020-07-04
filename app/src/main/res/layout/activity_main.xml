@@ -84,11 +84,19 @@
         android:checked="true"
         android:text="이용약관에 동의합니다." />
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="120dp"
-        android:src="@drawable/tje_logo_01"
-        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/tje_logo_01"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
 
 
     <Button
