@@ -5,8 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="40dp"
     android:background="#FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,6 +24,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="비밀번호"/>
 
     <EditText
@@ -33,6 +36,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="닉네임"/>
 
     <EditText
@@ -49,7 +53,8 @@
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -70,13 +75,14 @@
         android:layout_height="wrap_content"
         android:hint="추천해준 사람의 닉네임을 검색하세요."
         android:singleLine="true"
-        android:imeOptions="actionSearch"/>
+        android:imeOptions="actionSearch"
+        android:layout_marginTop="15dp"/>
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="true"
-        android:text="이용약관에 동의합니다."/>
+        android:text="이용약관에 동의합니다." />
 
     <ImageView
         android:layout_width="250dp"
